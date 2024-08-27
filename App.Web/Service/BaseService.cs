@@ -2,7 +2,6 @@
 using App.Web.Service.IService;
 using Newtonsoft.Json;
 using System.Text;
-using System.Text.Json.Serialization;
 using static App.Web.Utility.SD;
 
 namespace App.Web.Service
@@ -19,50 +18,51 @@ namespace App.Web.Service
             try { 
 
             HttpClient client = _httpClientFactory.CreateClient("MangoApi");
-            HttpRequestMessage requestMessage = new HttpRequestMessage();
-            requestMessage.Headers.Add("Accept", "application/json");
+            HttpRequestMessage message = new();
+                message.Headers.Add("Accept", "application/json");
 
-            //Token
-            requestMessage.RequestUri = new Uri(requestDto.Url);
+                //Token
 
-            if (requestDto.Url != null)
+                message.RequestUri = new Uri(requestDto.Url);
+
+            if (requestDto.Data != null)
             {
-                requestMessage.Content = new StringContent(JsonConvert.SerializeObject(requestDto.Data), Encoding.UTF8, "aplication/json");
+                    message.Content = new StringContent(JsonConvert.SerializeObject(requestDto.Data), Encoding.UTF8, "application/json");
             }
             HttpResponseMessage? apiResponse = null;
 
             switch(requestDto.ApiType)
             {
                 case ApiType.POST:
-                    requestMessage.Method = HttpMethod.Post;
+                        message.Method = HttpMethod.Post;
                     break;
                 case ApiType.PUT:
-                    requestMessage.Method = HttpMethod.Put;
+                        message.Method = HttpMethod.Put;
                     break;
                 case ApiType.DELETE:
-                    requestMessage.Method = HttpMethod.Delete;
+                        message.Method = HttpMethod.Delete;
                     break;
                 default:
-                    requestMessage.Method = HttpMethod.Get;
+                        message.Method = HttpMethod.Get;
                     break;
             }
 
-            apiResponse = await client.SendAsync(requestMessage);
+            apiResponse = await client.SendAsync(message);
 
             switch (apiResponse.StatusCode)
             {
                 case System.Net.HttpStatusCode.NotFound:
-                    return new ResponseDto { IsSuccess = false, Message = "Not Found", Result = null };
+                    return new() { IsSuccess = false, Message = "Not Found" };
                 case System.Net.HttpStatusCode.Forbidden:
-                    return new ResponseDto { IsSuccess = false, Message = "Access Denied", Result = null };
+                    return new () { IsSuccess = false, Message = "Access Denied"};
                 case System.Net.HttpStatusCode.Unauthorized:
-                    return new ResponseDto { IsSuccess = false, Message = "Unauthorized", Result = null };
+                    return new () { IsSuccess = false, Message = "Unauthorized" };
                 case System.Net.HttpStatusCode.InternalServerError:
-                    return new ResponseDto { IsSuccess = false, Message = "Internal Error", Result = null };
+                    return new () { IsSuccess = false, Message = "Internal Error"};
                 default:
                     var apiContent = await apiResponse.Content.ReadAsStringAsync();
-                    var responseDto = JsonConvert.DeserializeObject<ResponseDto>(apiContent);
-                    return responseDto;
+                    var apiResponseDto = JsonConvert.DeserializeObject<ResponseDto>(apiContent);
+                    return apiResponseDto;
             }
             }
             catch (Exception ex)

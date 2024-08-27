@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\App.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Lenovo/Desktop/Study/Courses/C\#/APIs/My projects/Practica de APIs/Mango/App.Web/Views/Coupon/CouponIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENvdXBvbkluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/Study/Courses/C\#/APIs/My projects/Practica de APIs/Mango/App.Web/Views/Coupon/CreateCoupon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uXENyZWF0ZUNvdXBvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/Desktop/Study/Courses/C\#/APIs/My projects/Practica de APIs/Mango/App.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

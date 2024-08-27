@@ -10,7 +10,7 @@ namespace App.Web.Service.IService
         Task<ResponseDto?> GetCouponByIdAsync(int Id);
         Task<ResponseDto?> CreateCouponAsync(CouponDto couponCode);
         Task<ResponseDto?> UpdateCouponAsync(CouponDto couponCode);
-        Task<ResponseDto?> CreateCouponAsync(int id);
+        Task<ResponseDto?> DeleteCouponAsync(int id);
 
 
 
