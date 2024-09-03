@@ -9,7 +9,9 @@ namespace Mango.Services.CouponAPI.Data
         {
             
         }
+        //se crea un dbset para la entidad coupon, un dbset es una coleccion de objetos de la entidad coupon
         public DbSet<Coupon> Coupon { get; set; }
+        //se sobreescribe el metodo OnModelCreating para agregar data a la tabla coupon
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

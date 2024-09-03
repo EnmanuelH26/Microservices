@@ -6,7 +6,9 @@
     <title>@ViewData["Title"] - App.Web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">
     <link rel="stylesheet" href="~/App.Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
@@ -30,7 +32,7 @@
                                 Content management
                             </a>
                             <ul class="dropdown-menu text-white">
-                                <li><a class="dropdown-item text-white" asp-controller="Coupon" asp-action="CouponIndex">Action</a></li>
+                                <li><a class="dropdown-item text-white" asp-controller="Coupon" asp-action="CouponIndex">Coupon</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -41,6 +43,7 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <partial name="_Notification" />
         </main>
     </div>
 

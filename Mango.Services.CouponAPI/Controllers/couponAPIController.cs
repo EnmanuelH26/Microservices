@@ -11,9 +11,11 @@ namespace Mango.Services.CouponAPI.Controllers
     [ApiController]
     public class couponAPIController : ControllerBase
     {
+        //se inyecta el contexto de la db, el mapper y el responseDto
         private readonly AppDbContext _db;
         private ResponseDto _responseDto;
-        private readonly IMapper _mapper;   
+        private readonly IMapper _mapper;
+        //se inyecta el contexto de la db y el mapper
         public couponAPIController(AppDbContext db, IMapper mapper)
         {
             _db = db;
@@ -25,28 +27,34 @@ namespace Mango.Services.CouponAPI.Controllers
         {
             try
             {
+                //el IEnumerable es una lista de solo lectura, aqui se obtiene todos los registros de la tabla coupon
                 IEnumerable<Coupon> couponsList =_db.Coupon.ToList();
      
-
+                //aqui se mapean los objetos de la entidad coupon a la entidad couponDto    
                 _responseDto.Result = _mapper.Map<IEnumerable<CouponDto>>(couponsList);
             }
             catch (Exception ex)
             {
-
+                //si hay un error se setean los valores de la respuesta
                 _responseDto.IsSuccess = false;
                 _responseDto.Message = ex.Message;
             }
+            //retornamos la respuesta
             return _responseDto;
             
         }
 
         [HttpGet]
-        [Route("{id:int}")]
+        [Route("{id:int}")] //se le pasa el id que se quiere obtener
         public ResponseDto Get(int id)
         {
             try
             {
+                //el FirstOrDefault es para obtener un solo registro de la tabla coupon,
+                //se le pasa el id que se quiere obtener
+                //Aqui se obtiene un solo registro de la tabla coupon
                 Coupon coupon = _db.Coupon.FirstOrDefault(u => u.CouponId == id);
+                //se mapena el objeto de la entidad coupon a la entidad couponDto
                 _responseDto.Result = _mapper.Map<CouponDto>(coupon);  
 
                 //mapeo right-left
@@ -61,10 +69,11 @@ namespace Mango.Services.CouponAPI.Controllers
             }
             catch (Exception ex)
             {
-
+                //si hay un error se setea los valores del response
                 _responseDto.IsSuccess=false;
                 _responseDto.Message = ex.Message;
             }
+            //retornamos la respuesta
             return _responseDto;
 
         }
@@ -76,6 +85,7 @@ namespace Mango.Services.CouponAPI.Controllers
         {
             try
             {
+                //Se obtiene el codigo del cupon
                 Coupon coupon = _db.Coupon.FirstOrDefault(u => u.CouponCode.ToLower().Trim() == code.ToLower().Trim());
 
                 if (coupon == null)
@@ -130,6 +140,7 @@ namespace Mango.Services.CouponAPI.Controllers
 
         }
         [HttpDelete]
+        [Route("{id:int}")]
         public ResponseDto Delete(int id)
         {
             try
@@ -139,7 +150,7 @@ namespace Mango.Services.CouponAPI.Controllers
                 _db.SaveChanges();
             }
             catch (Exception ex)
-            {
+            {   
 
                 _responseDto.IsSuccess = false;
                 _responseDto.Message = ex.Message;
