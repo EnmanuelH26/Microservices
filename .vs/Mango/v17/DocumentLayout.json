@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\fruit.services.authapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|solutionrelative:fruit.services.authapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87AA0F27-029F-424C-A18A-39192188ECB8}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\mango.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87AA0F27-029F-424C-A18A-39192188ECB8}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\fruit.services.authapi\\services\\iservices\\ijwtgeneratetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|solutionrelative:fruit.services.authapi\\services\\iservices\\ijwtgeneratetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\fruit.services.authapi\\services\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|solutionrelative:fruit.services.authapi\\services\\iservices\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\fruit.services.authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|solutionrelative:fruit.services.authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\fruit.services.authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|solutionrelative:fruit.services.authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\fruit.services.authapi\\services\\jwtgeneratetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A74BCB97-4BC8-4157-95F4-BB3CDA24034E}|Fruit.Services.AuthAPI\\Fruit.Services.AuthAPI.csproj|solutionrelative:fruit.services.authapi\\services\\jwtgeneratetoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87AA0F27-029F-424C-A18A-39192188ECB8}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|c:\\users\\lenovo\\desktop\\study\\courses\\c#\\apis\\my projects\\practica de apis\\mango\\mango.services.couponapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87AA0F27-029F-424C-A18A-39192188ECB8}|Mango.Services.CouponAPI\\Mango.Services.CouponAPI.csproj|solutionrelative:mango.services.couponapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,80 +46,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Fruit.Services.AuthAPI\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\AuthService.cs",
-              "RelativeToolTip": "Fruit.Services.AuthAPI\\Services\\AuthService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAsAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T22:25:59.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IJwtGenerateToken.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\IServices\\IJwtGenerateToken.cs",
-              "RelativeDocumentMoniker": "Fruit.Services.AuthAPI\\Services\\IServices\\IJwtGenerateToken.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\IServices\\IJwtGenerateToken.cs",
-              "RelativeToolTip": "Fruit.Services.AuthAPI\\Services\\IServices\\IJwtGenerateToken.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T22:25:52.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\IServices\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Fruit.Services.AuthAPI\\Services\\IServices\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\IServices\\IAuthService.cs",
-              "RelativeToolTip": "Fruit.Services.AuthAPI\\Services\\IServices\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T22:25:48.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Fruit.Services.AuthAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Program.cs",
-              "RelativeToolTip": "Fruit.Services.AuthAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T22:25:18.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "Fruit.Services.AuthAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\appsettings.json",
-              "RelativeToolTip": "Fruit.Services.AuthAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Mango.Services.CouponAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Mango.Services.CouponAPI\\appsettings.json",
+              "RelativeToolTip": "Mango.Services.CouponAPI\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-30T22:25:16.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T20:51:39.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JwtGenerateToken.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\JwtGenerateToken.cs",
-              "RelativeDocumentMoniker": "Fruit.Services.AuthAPI\\Services\\JwtGenerateToken.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Fruit.Services.AuthAPI\\Services\\JwtGenerateToken.cs",
-              "RelativeToolTip": "Fruit.Services.AuthAPI\\Services\\JwtGenerateToken.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Mango.Services.CouponAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Mango.Services.CouponAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\Study\\Courses\\C#\\APIs\\My projects\\Practica de APIs\\Mango\\Mango.Services.CouponAPI\\Program.cs",
+              "RelativeToolTip": "Mango.Services.CouponAPI\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T22:25:10.018Z",
+              "WhenOpened": "2024-09-18T20:29:13.002Z",
               "EditorCaption": ""
             }
           ]

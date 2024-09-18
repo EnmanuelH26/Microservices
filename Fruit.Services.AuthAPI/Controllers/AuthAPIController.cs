@@ -55,7 +55,7 @@ namespace Fruit.Services.AuthAPI.Controllers
             if (!assignRoleSuccesful)
             {
                 _response.IsSuccess = false;
-                _response.Message = "Error contountered";
+                _response.Message = "Error encountered";
                 return BadRequest(_response);
             }
 

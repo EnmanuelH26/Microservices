@@ -4,6 +4,7 @@ namespace Mango.Services.CouponAPI.Models
 {
     public class Coupon
     {
+        //modelo para el cupon con validaciones
         [Key]
         public int CouponId { get; set; }
         [Required]
