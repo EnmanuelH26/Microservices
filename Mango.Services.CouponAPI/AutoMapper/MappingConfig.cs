@@ -8,6 +8,7 @@ namespace Mango.Services.CouponAPI.AutoMapper
     {
         public MappingConfig()
         {
+            //se mapea la entidad coupon a coupondto y viceversa
             CreateMap<Coupon, CouponDto>().ReverseMap();
         }
     }

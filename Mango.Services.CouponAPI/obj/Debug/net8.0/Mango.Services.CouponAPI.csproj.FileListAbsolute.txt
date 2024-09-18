@@ -155,6 +155,7 @@ C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango
 C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\Mango.Services.CouponAPI.sourcelink.json
 C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Lenovo\Desktop\Study\Courses\C#\APIs\My projects\Practica de APIs\Mango\Mango.Services.CouponAPI\obj\Debug\net8.0\staticwebassets\msbuild.Mango.Services.CouponAPI.Microsoft.AspNetCore.StaticWebAssets.props
