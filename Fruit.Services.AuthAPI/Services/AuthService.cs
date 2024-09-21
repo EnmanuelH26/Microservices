@@ -64,7 +64,7 @@ namespace Fruit.Services.AuthAPI.Services
 
             var roles = await _user.GetRolesAsync(user);    
 
-            var token = _jwtGenerateToken.GenerateJSONWebToken(user, roles);
+            var token = _jwtGenerateToken.GenerateJSONWebToken(user, roles); //generamos el token
             //creamos el objeto userDto
             UserDto userDto = new()
             {
@@ -99,7 +99,7 @@ namespace Fruit.Services.AuthAPI.Services
             try
             {
                 //creamos el usuario
-                var result = await _user.CreateAsync(user, userForRegistration.Password);
+                var result = await _user.CreateAsync(user, userForRegistration.Password); //CreateAsync es un metodo de la clase UserManager que crea un usuario en la base de datos
                 //si el usuario fue creado exitosamente retornamos un string vacio
                 if (result.Succeeded)
                 {

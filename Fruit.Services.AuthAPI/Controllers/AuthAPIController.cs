@@ -1,5 +1,6 @@
 ﻿using Fruit.Services.AuthAPI.Models.Dto;
 using Fruit.Services.AuthAPI.Services.IServices;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;

@@ -10,11 +10,13 @@ namespace App.Web.Service
     {
         // el IHttpClientFactory sirve para crear un cliente http, es una interfaz que nos permite crear un cliente http
         private readonly IHttpClientFactory _httpClientFactory;  
-        public BaseService(IHttpClientFactory httpClientFactory)
+        private readonly ITokenProvider _tokenProvider;  
+        public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
         {
-            _httpClientFactory = httpClientFactory; 
+            _httpClientFactory = httpClientFactory;
+            _tokenProvider = tokenProvider;
         }
-        public async Task<ResponseDto> SendAsync(RequestDto requestDto)
+        public async Task<ResponseDto> SendAsync(RequestDto requestDto, bool withBearer = true)
         {
             try { 
 
@@ -24,8 +26,12 @@ namespace App.Web.Service
                 message.Headers.Add("Accept", "application/json"); //se le agrega un header a la peticion, en este caso se le agrega el header de aceptar json
 
                 //Token
-
-                message.RequestUri = new Uri(requestDto.Url);
+                if (withBearer)
+                {
+                    _tokenProvider.GetToken();
+                    message.Headers.Add("Authorization", $"Bearer {_tokenProvider.GetToken()}"); //se le agrega un header a la peticion, en este caso se le agrega el header de autorizacion con el token
+                }
+                message.RequestUri = new Uri(requestDto.Url); //se le asigna la url a la peticion
 
                 if (requestDto.Data != null)
                 {

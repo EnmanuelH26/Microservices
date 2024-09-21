@@ -33,8 +33,9 @@
                             </a>
                             <ul class="dropdown-menu text-white">
                                 <li><a class="dropdown-item text-white" asp-controller="Coupon" asp-action="CouponIndex">Coupon</a></li>
+                                <li><a class="dropdown-item text-white" asp-controller="Product" asp-action="ProductIndex">Product</a></li>
                             </ul>
-                        </li>
+                        </li>   
                     </ul>
                    <ul class="navbar-nav">
                        @if (!User.Identity.IsAuthenticated)
